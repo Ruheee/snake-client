@@ -12,9 +12,11 @@ const connect = () => {
 
   });
   conn.on("connect", () => {
-    conn.write("Name: Rui")
+    conn.write("Name: Rui")// sending name
     console.log("Successfully connected to game server")
+    // conn.write("Move: up")
   })
+  
 
   conn.setEncoding("utf8");
 
