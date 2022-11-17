@@ -1,4 +1,7 @@
-const setupInput = () => {
+let connection;
+
+const setupInput = (conn) => {
+  connection = conn;
   const stdin = process.stdin;
   stdin.setRawMode(true);
   stdin.setEncoding("utf8");
@@ -14,7 +17,16 @@ const handleUserInput = (key) => { // event listening for stdin that runs when y
     process.exit();
   }
   if (key === "w") {
-    console.log('move up')
+    connection.write("Move: up");
+  }
+  if (key === "a") {
+    connection.write("Move: left");
+  }
+  if (key === "s") {
+    connection.write("Move: down");
+  }
+  if (key === "d") {
+    connection.write("Move: right");
   }
 };
 
