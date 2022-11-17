@@ -1,4 +1,5 @@
 let connection;
+const { moveUp, moveLeft, moveDown, moveRight } = require("./constants");
 
 const setupInput = (conn) => {
   connection = conn;
@@ -28,6 +29,8 @@ const handleUserInput = (key) => { // event listening for stdin that runs when y
   if (key === "d") {
     connection.write("Move: right");
   }
+
+  
 };
 
 module.exports = {
