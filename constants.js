@@ -7,7 +7,7 @@ const msg = {
   s: "Move: down",
   d: "Move: right",
   l: "Say: LOL",
-  n: "Say: Nice Move",
+  g: "Say: GG",
   b: "Say: BRB"
 };
 

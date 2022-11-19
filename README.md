@@ -4,15 +4,15 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Before you can run this client, you will need to be running the server side which you can download and install from here. 
+Before you can run this client, you will need to be running the server side which you can download and install from [here](https://github.com/lighthouse-labs/snek-multiplayer). 
 
 ## Final Product
 
 !["Game screen when connected"](./Screen%20Shot%202022-11-19%20at%2011.27.36%20AM.png)
 
-!["Message to client upon connection"](./Screen%20Shot%202022-11-19%20at%2011.27.53%20AM.png)
+!["Idle message"](./Screen%20Shot%202022-11-19%20at%2012.14.42%20PM.png)
 
-!["Idle message"](./Screen%20Shot%202022-11-19%20at%2011.28.02%20AM.png)
+!["Message to client upon connection"](./Screen%20Shot%202022-11-19%20at%2012.56.10%20PM.png)
 
 
 ## Getting Started
@@ -34,7 +34,7 @@ Move the snake to eat the food on the screen, the more food the snake eats the m
 Client snake has pre determined mesagges to interact with other users, just use one of the following keys to send the message:
 
 - Use 'l' to send: LOL
-- Use 'n' to send: Nice Move
+- Use 'g' to send: GG
 - Use 'b' to send: BRB
 
 ## How to end the game
